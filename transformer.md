@@ -3,10 +3,10 @@
   
 | Name               | Expression           | Default value                                       | Skip if defined |
 |--------------------|----------------------|-----------------------------------------------------|-----------------|
-| `NAME`             | ``                   | `capitalize(camelCase(fileNameWithoutExtension()))` | ``              |
+| `NAME`             |                      | `capitalize(camelCase(fileNameWithoutExtension()))` |                 |
 | `decapitalizeNAME` | `decapitalize(NAME)` | `""`                                                | `x`             |
-| `FROM`             | ``                   | `"Object"`                                          | ``              |
-| `TO`               | ``                   | `"Object"`                                          | ``              |
+| `FROM`             |                      | `"Object"`                                          |                 |
+| `TO`               |                      | `"Object"`                                          |                 |
   
 ---
   

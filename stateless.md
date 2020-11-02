@@ -3,7 +3,7 @@
   
 | Name   | Expression   | Default value                                       | Skip if defined |
 |--------|--------------|-----------------------------------------------------|-----------------|
-| `NAME` | ``           | `capitalize(camelCase(fileNameWithoutExtension()))` | ``              |
+| `NAME` |              | `capitalize(camelCase(fileNameWithoutExtension()))` |                 |
   
 ---
   
