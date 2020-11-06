@@ -18,7 +18,7 @@ part '$fileNameWithoutExtension$.freezed.dart';
 
 @freezed
 abstract class $NAME$Event with _$$$NAME$Event {
-  const $NAME$._();
+  const $NAME$Event._();
 
   const factory $NAME$Event.create() = Create$NAME$Event;
 
@@ -31,7 +31,8 @@ abstract class $NAME$Event with _$$$NAME$Event {
 
 @freezed
 abstract class $NAME$State with _$$$NAME$State {
-
+  const $NAME$State._();
+  
   const factory $NAME$State.initial() = Initial$NAME$State;
 }
 
