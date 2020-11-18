@@ -442,8 +442,10 @@ class _$NAME$State extends State<$NAME$> with SingleTickerProviderStateMixin, Wi
               decoration: const BoxDecoration(
                 color: Color(0x61000000),
               ),
-              child: SizedBox.expand(
-                child: widget.child,
+              child: RepaintBoundary(
+                child: SizedBox.expand(
+                  child: widget.child,$END$
+                ),
               ),
             ),
           ),
