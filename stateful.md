@@ -18,6 +18,10 @@ class $NAME$ extends StatefulWidget {
     Key key,
   })  : super(key: key);
 
+  /// Для поиска _$NAME$State в контексте
+  static _$NAME$State of(BuildContext context) =>
+    context.findAncestorStateOfType<_$NAME$State>();
+
   @override
   State<$NAME$> createState() => _$NAME$State();
 
@@ -177,6 +181,10 @@ class $NAME$ extends StatefulWidget {
         assert(duration != null, 'Field duration in widget $NAME$ must not be null'),
         super(key: key);
 
+  /// Для поиска _$NAME$State в контексте
+  static _$NAME$State of(BuildContext context) =>
+    context.findAncestorStateOfType<_$NAME$State>();
+
   @override
   State<$NAME$> createState() => _$NAME$State();
 
@@ -322,6 +330,10 @@ class $NAME$ extends StatefulWidget {
   })  : assert(child != null, 'Field child in widget $NAME$ must not be null'),
         assert(duration != null, 'Field duration in widget $NAME$ must not be null'),
         super(key: key);
+
+  /// Для поиска _$NAME$State в контексте
+  static _$NAME$State of(BuildContext context) =>
+    context.findAncestorStateOfType<_$NAME$State>();
 
   @override
   State<$NAME$> createState() => _$NAME$State();
