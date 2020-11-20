@@ -596,7 +596,7 @@ class _$NAME$Scope extends InheritedWidget {
             ),
           )
           ..add(
-            ObjectFlagProperty<_KeyboardQueryState>(
+            ObjectFlagProperty<_$NAME$State>(
               '_$NAME$State',
               state,
               ifNull: 'none',
